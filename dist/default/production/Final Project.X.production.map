@@ -1,0 +1,117 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Wed Jun 29 21:12:04 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_0       code   0x000008    program   0x00000c
+                   .org_1       code   0x000100    program   0x00003e
+                   .org_2       code   0x000200    program   0x00010a
+                MAIN_PROG       code   0x00030a    program   0x00002c
+                   .org_3       code   0x000350    program   0x000024
+                   .org_4       code   0x000600    program   0x0000fe
+                   .org_5       code   0x000800    program   0x000134
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x000013      
+                            0x000100    0x00013d      
+                            0x000200    0x000335      
+                            0x000350    0x000373      
+                            0x000600    0x0006fd      
+                            0x000800    0x000933      
+            988 out of 33048 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    AGAIN   0x000208    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     BACK   0x0006d8    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                    BASIC   0x00084c    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                 CHG_HP_H   0x000610    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                      CHK   0x000100    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                CLEAR_WAT   0x000236    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       CW   0x0006b2    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       D1   0x0006a0    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       D2   0x0006a4    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       D3   0x0006ec    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       D4   0x0006f0    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                 DIO_DESU   0x000310    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                    DSEND   0x0006c2    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     D_HP   0x000600    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                      FIN   0x00012c    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     FINN   0x000906    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                GAME_OVER   0x000632    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     GOGO   0x00022c    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     GROW   0x000916    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     HERE   0x000212    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       HI   0x000222    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                   HP_INT   0x000200    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                 HP_L_CHK   0x000624    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                      INT   0x000800    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     JOJO   0x000930    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                   LDELAY   0x00069c    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     MUDA   0x000320    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                   SDELAY   0x0006e8    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                   SET_HP   0x000350    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                    START   0x00030a    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                    SUNNY   0x00010e    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                  SUN_INT   0x0008e4    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                      U_U   0x0006d2    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                 WATERING   0x0002a0    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       YE   0x000130    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                      YEE   0x000908    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+             _.org_4_0696   0x000696    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      CHK   0x000100    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                    SUNNY   0x00010e    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                      FIN   0x00012c    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       YE   0x000130    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                   HP_INT   0x000200    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                    AGAIN   0x000208    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     HERE   0x000212    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       HI   0x000222    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     GOGO   0x00022c    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                CLEAR_WAT   0x000236    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                 WATERING   0x0002a0    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                    START   0x00030a    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                 DIO_DESU   0x000310    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     MUDA   0x000320    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                   SET_HP   0x000350    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     D_HP   0x000600    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                 CHG_HP_H   0x000610    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                 HP_L_CHK   0x000624    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                GAME_OVER   0x000632    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+             _.org_4_0696   0x000696    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                   LDELAY   0x00069c    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       D1   0x0006a0    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       D2   0x0006a4    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       CW   0x0006b2    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                    DSEND   0x0006c2    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                      U_U   0x0006d2    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     BACK   0x0006d8    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                   SDELAY   0x0006e8    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       D3   0x0006ec    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                       D4   0x0006f0    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                      INT   0x000800    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                    BASIC   0x00084c    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                  SUN_INT   0x0008e4    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     FINN   0x000906    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                      YEE   0x000908    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     GROW   0x000916    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+                     JOJO   0x000930    program     static C:\Users\Enigmafiend\MPLABXProjects\Final Project.X\newpic_8b_simple.asm
+
+
